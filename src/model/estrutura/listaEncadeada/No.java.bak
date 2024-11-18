@@ -1,0 +1,32 @@
+package model.estrutura.listaEncadeada;
+
+public class No<T>{
+	private String cidade;
+	private No<T> proximo;
+	
+	public No<T>(String cidade){
+		this.proximo = null;
+		this.cidade = cidade;
+	}
+	
+	public No<T>(String cidade, No<T> proximo) {
+		this.cidade = cidade;
+		this.proximo = proximo;
+	}
+	
+	public String getCidade(){
+		return cidade;
+	}
+	
+	public void setCidade(String cidade){
+		this.cidade = cidade;
+	}
+	
+	public No<T> getProximo(){
+		return proximo;
+	}
+	
+	public void setProximo(No<T> proximo){
+		this.proximo = proximo;
+	}
+}

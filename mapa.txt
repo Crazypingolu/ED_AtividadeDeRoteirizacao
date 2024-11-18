@@ -1,0 +1,23 @@
+Belo Horizonte;Governador Valadares;313 Km
+Belo Horizonte;Manhuaçu;279 Km
+Belo Horizonte;Uberaba;476 Km
+Belo Horizonte;Juiz de Fora;260 Km
+Uberaba;Uberlândia;105 Km
+Uberlândia;Patos de Minas;222 Km
+Governador Valadares;Colatina;216 Km
+Manhuaçu;Governador Valadares;198 Km
+Manhuaçu;Vitória;233 Km
+Manhuaçu;Juiz de Fora;290 Km
+Juiz de Fora;Rio de Janeiro;181 Km
+Rio de Janeiro;Campos dos Goytacazes;277 Km
+Campo dos Goytacazes;Vitória;240 Km
+Rio de Janeiro;São José dos Campos;341 Km
+São José dos Campos;São Paulo;79 Km
+São Paulo;Campinas;111 Km
+Campinas;São Carlos;142 Km
+São Carlos;Ribeirão Preto;99 Km
+Ribeirão Preto;Franca;89 Km
+Ribeirão Preto;Uberlândia;278 Km
+Uberlândia;São José do Rio Preto;285 Km
+São José do Rio Preto;São Carlos;206 Km
+

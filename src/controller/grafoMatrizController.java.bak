@@ -1,0 +1,42 @@
+package controller;
+
+import model.estrutura.grafo.grafoMatriz;
+import model.estrutura.listaEncadeada.listaEncadeada;
+import java.io.*;
+
+public class grafoMatrizController{
+	public grafoMatrizController(){
+		super();
+	}
+	
+	pulbic void carregaLista() throws IOException{
+		String file = "mapa.txt"; // Escolhe o arquivo para leitura
+        BufferedReader ler = new BufferedReader(new FileReader(file)); // cria  "leitor"
+        while(true){
+			if(ler.readLine() == null && ler.readLine() == " ")
+				break;
+            cidade = ler.readLine() // ler str e converter (int)
+			// procura na lista:
+			
+            cidade[i].nomeCidade = ler.readLine();
+            cidade[i].quantidadeAcidentes = Integer.parseInt(ler.readLine());
+        }
+        ler.close();
+        JOptionPane.showMessageDialog(null, "Leitura concluída.");
+        return;
+	}
+	
+	public String test() throws Exception{
+		String[] points = new String[] {"A", "B", "C", "D"};
+		grafoMatriz g = new grafoMatriz(points);
+		
+		g.link("A", "B");
+		g.link("A", "C");
+		g.link("A", "D");
+		g.link("B", "C");
+		g.remove("A", "B");
+		g.removeAll("A", points);
+		
+		return g.toString();
+	}
+}
